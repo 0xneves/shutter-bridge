@@ -6,10 +6,16 @@ async function main() {
     "ShutterToken",
     signer,
   );
-  const Contract = await ContractFactory.deploy();
+  const Contract = await ContractFactory.deploy(signer.address);
   await Contract.deployed();
 
+  const currentBalance = await Contract.balanceOf(signer.address);
+
   console.log("Shutter Token deployed to:", Contract.address);
+  console.log(
+    "Current balance of deployer:",
+    ethers.utils.formatEther(currentBalance),
+  );
 }
 
 main()
