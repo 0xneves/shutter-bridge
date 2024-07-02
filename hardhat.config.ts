@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.20",
+  solidity: "0.8.22",
   networks: {
     sepolia: {
       url: `${process.env.SEPOLIA_RPC_URL}`,
