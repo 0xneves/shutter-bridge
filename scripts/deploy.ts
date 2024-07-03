@@ -11,9 +11,10 @@ async function main() {
 
   const currentBalance = await Contract.balanceOf(signer.address);
 
+  console.log("Deploying Shutter Token as ", signer.address);
   console.log("Shutter Token deployed to:", Contract.address);
   console.log(
-    "Current balance of deployer:",
+    "Current $SHU balance of deployer:",
     ethers.utils.formatEther(currentBalance),
   );
 }
