@@ -7,8 +7,8 @@ This repo locks underlying $SHU tokens on Ethereum and mints synthetic tokens in
 - [OmniBridge](https://docs.gnosischain.com/bridges/About%20Token%20Bridges/omnibridge)
 - [Proposal to deploy SHU on Gnosis](https://shutternetwork.discourse.group/t/final-proposal-to-deploy-a-shu-usdc-pool-in-swapr-v3-on-gnosis-chain/441)
 - [Github Issue](https://github.com/blockful-io/shutter-bridge/issues/2)
-- []()
-- []()
+- [Shutter Token on Sepolia](https://sepolia.etherscan.io/address/0x2951115ab28ada82b34797a12f3eff061c8645bc)
+- [Shutter Token on Chiado](https://gnosis-chiado.blockscout.com/address/0x9f1fbDB40FC5009F0C057925fcDe4105688B8074?tab=txs)
 
 ## Getting Started
 
