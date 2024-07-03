@@ -1,5 +1,6 @@
 import { ethers } from "hardhat";
 
+/// @dev This script deploys the ShutterToken contract for the signer
 async function main() {
   const [signer] = await ethers.getSigners();
   const ContractFactory = await ethers.getContractFactory(
