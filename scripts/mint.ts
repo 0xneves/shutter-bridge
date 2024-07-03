@@ -7,9 +7,9 @@ async function main() {
 
   let shutterTokenAddress;
 
-  if (ethers.provider.network.chainId === 11155111) {
+  if ((await ethers.provider.getNetwork()).chainId === 11155111) {
     shutterTokenAddress = process.env.SHUTTER_TOKEN_SEPOLIA!;
-  } else if (ethers.provider.network.chainId === 10200) {
+  } else if ((await ethers.provider.getNetwork()).chainId === 10200) {
     shutterTokenAddress = process.env.SHUTTER_TOKEN_CHIADO!;
   } else {
     console.log(
