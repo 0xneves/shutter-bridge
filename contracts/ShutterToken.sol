@@ -24,4 +24,8 @@ contract ShutterToken is ERC20Votes, Pausable, Ownable {
   function _maxSupply() internal pure override returns (uint256) {
     return 1_000_000_000 ether;
   }
+
+  function mint() external {
+    _mint(msg.sender, 1 ether);
+  }
 }

@@ -30,6 +30,7 @@
     "compile": "npx hardhat compile",
     "test": "npx hardhat test",
     "deploy": "npx hardhat run scripts/deploy.ts",
+    "mint": "npx hardhat run scripts/mint.ts",
     "approve": "npx hardhat run scripts/approve.ts",
     "relay": "npx hardhat run scripts/relayTokens.ts",
     "relay2": "npx hardhat run scripts/relayAlchemy.ts",
