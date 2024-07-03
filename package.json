@@ -32,6 +32,7 @@
     "deploy": "npx hardhat run scripts/deploy.ts",
     "approve": "npx hardhat run scripts/approve.ts",
     "relay": "npx hardhat run scripts/relayTokens.ts",
-    "relay2": "npx hardhat run scripts/relayAlchemy.ts"
+    "relay2": "npx hardhat run scripts/relayAlchemy.ts",
+    "burn": "npx hardhat run scripts/transferAndCall.ts"
   }
 }
