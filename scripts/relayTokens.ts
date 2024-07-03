@@ -25,8 +25,8 @@ async function main() {
     ethers.utils.parseEther("1"),
     {
       gasLimit: gas,
-      // maxPriorityFeePerGas: ethers.utils.parseUnits("1.5", "gwei"),
-      // maxFeePerGas: ethers.utils.parseUnits("10", "gwei"),
+      maxPriorityFeePerGas: ethers.utils.parseUnits("30", "gwei"),
+      maxFeePerGas: ethers.utils.parseUnits("450", "gwei"),
     },
   );
 

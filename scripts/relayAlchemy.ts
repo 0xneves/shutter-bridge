@@ -50,11 +50,11 @@ async function main() {
 
   let transaction = {
     to: omniBridgeAddress,
-    value: 100,
+    value: 0,
     data: data,
     gasLimit: "300000",
-    maxPriorityFeePerGas: Utils.parseUnits("5", "gwei"),
-    maxFeePerGas: Utils.parseUnits("20", "gwei"),
+    maxPriorityFeePerGas: Utils.parseUnits("30", "gwei"),
+    maxFeePerGas: Utils.parseUnits("450", "gwei"),
     nonce: nonce,
     type: 2,
     chainId: 11155111,
