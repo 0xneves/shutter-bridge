@@ -2,6 +2,7 @@ import { ethers } from "hardhat";
 
 /// @dev This script approvaes the OmniBridge contract to spend the ShutterToken
 /// tokens on behalf of the user.
+/// Usage `yarn approve`
 async function main() {
   const [signer] = await ethers.getSigners();
 

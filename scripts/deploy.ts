@@ -1,6 +1,7 @@
 import { ethers } from "hardhat";
 
 /// @dev This script deploys the ShutterToken contract for the signer
+/// Usage `yarn deploy --network sepolia`
 async function main() {
   const [signer] = await ethers.getSigners();
   const ContractFactory = await ethers.getContractFactory(

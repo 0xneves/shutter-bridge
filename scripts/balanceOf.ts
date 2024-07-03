@@ -1,10 +1,10 @@
 import { ethers } from "hardhat";
 
+/// @dev This script checks the balance of the user on both Sepolia and Chiado
+/// Usage `yarn balances`
 async function main() {
-  const shutterTokenAddressSepolia =
-    "0x031219C4Db62C9403A243796C6CD59851038b5Ba";
-  const shutterTokenAddressChiado =
-    "0x991094C6b570A3eBDA9D1EaE13b086d0becC54B5";
+  const shutterTokenAddressSepolia = process.env.SHUTTER_TOKEN_SEPOLIA!;
+  const shutterTokenAddressChiado = process.env.SHUTTER_TOKEN_SEPOLIA!;
 
   const sepolia = new ethers.providers.JsonRpcProvider(
     process.env.SEPOLIA_RPC_URL,
