@@ -1,6 +1,6 @@
 # shutter-bridge
 
-This repo locks underlying $SHU tokens on Ethereum and mints synthetic tokens in Gnosis Chain.
+This repo locks underlying $SHU tokens on Ethereum and mints synthetic tokens in Gnosis Chain and the other way around using the Gnosis OmniBridge.
 
 #### What's inside?
 
