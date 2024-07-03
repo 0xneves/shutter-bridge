@@ -22,7 +22,7 @@ let wallet = new Wallet(DEPLOYER_PRIVATE_KEY);
 
 /// @dev Testing the relayTokens function of the OmniBridge contract
 /// via Alchemy SDK because transactions were getting stuck on the
-/// nodes.
+/// nodes when using hardhat's with ethers.js.
 async function main() {
   const [signer] = await ethers.getSigners();
 
